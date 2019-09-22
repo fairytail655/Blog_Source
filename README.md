@@ -2,7 +2,7 @@
  博客的源框架
 
 1、npm install hexo-cli -g  
-2、hexo init[生成框架文件]  
+2、hexo init
 3、修改_config.yml文件:  
    deploy:  
      type: git  
