@@ -9,6 +9,5 @@
  	    repository: 你的github项目地址
   	    branch: master
 4、npm install --save hexo-deployer-git
-
 hexo s -g —— 开启本地服务器
 hexo d -g —— 博客部署到云端
