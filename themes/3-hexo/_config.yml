@@ -222,7 +222,7 @@ gitalk:
 # adminUser: 必须为上面仓库的合作者（有写入权限），使用自己的 github 用户名即可
 # distractionFreeMode: 全屏遮罩效果
 # language: 语言：支持：en / zh-CN / zh-TW 三种
-# perPage: 每次加载的数据大小，默认10，最大100
+# perPage: 每次加载的数据大小，默认10，最大100 
 
 
 gitment:
