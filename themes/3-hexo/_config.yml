@@ -29,7 +29,7 @@ category:
   num: true # 分类显示文章数
   sub: true # 开启多级分类
   width:
-    lg: 100 # 1468px<屏幕宽度 左侧分类宽度
+    lg: 120 # 1468px<屏幕宽度 左侧分类宽度
     md: 100 # 1024px<屏幕宽度<=1468px 左侧分类宽度
     sm: 100 # 426px<屏幕宽度<=1024px 左侧分类宽度（ipad）
 # 多级分类说明：
@@ -70,7 +70,7 @@ bottom_text: ©2016-2019 TinyBlog
 reward: true
 # true 开启打赏功能
 
-searchAll: false
+searchAll: true
 # true 启用全文搜索
 # 开启此功能需要下面操作：
 # 1. 在 hexo 根目录 执行 npm install hexo-generator-search --save 安装插件
@@ -185,10 +185,10 @@ friends:
 
 ##########评论设置#############
 comment:
-  on: false
+  on: true
   type: gitalk  # 评论系统：gitalk、disqus、gentie、gitment,注意：使用时，在下方对应位置进行配置
   comment_count: true  # 文章标题下方显示评论数
-  preload_comment: false  # 预加载评论区
+  preload_comment: true  # 预加载评论区
   ## false: 当点击评论条等区域时再加载评论模块
   ## true: 页面加载时加载评论区
 # 各评论系统配置 ↓↓
@@ -205,11 +205,11 @@ gentie:
   # 网易云跟帖暂时不支持查询评论数，所以启用时，把评论数关掉，上方comment_count: false。
 
 gitalk:
-  githubID: yelog
-  repo: yelog.github.io
-  ClientID:
-  ClientSecret:
-  adminUser: yelog
+  githubID: fairytail655
+  repo: fairytail655.github.io
+  ClientID: 63c56381faaaf3d46949
+  ClientSecret: 4555b779954d577a4b8e6b006128471769758127
+  adminUser: fairytail655
   distractionFreeMode: true
   language: zh-CN
   perPage: 10

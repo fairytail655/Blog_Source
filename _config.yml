@@ -81,3 +81,7 @@ deploy:
   type: git
   repository: git@github.com:fairytail655/fairytail655.github.io.git
   branch: master
+
+search:
+  path: search.xml
+  field: post
