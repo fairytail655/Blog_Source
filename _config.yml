@@ -1,24 +1,23 @@
 # Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
+## Docs: http://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# Site
-title: FairyBlog
-subtitle: fairytail655
-description:
-keywords:
-author: fairytail655
-language: en
+# Site #博客的基本信息
+title: FariyBlog #博客标题
+subtitle: #博客副标题
+description: Embeded System | C | Espressif #博客描述，部分主题会用来生成简介
+author: Liu Zhongwei #博客作者
+language: en #语言
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://yoursite.com #你自己的域名
+root: / #根目录位置，如果只是github pages的子目录需要更改
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
-# Directory
+# Directory #文件结构 默认即可
 source_dir: source
 public_dir: public
 tag_dir: tags
@@ -28,60 +27,65 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
-# Writing
+# Writing #编辑博文的选项
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
-highlight:
-  enable: false
-  line_number: true
-  auto_detect: false
+highlight: #代码高亮
+  enable: true #是否启用
+  line_number: true #是否显示行号
+  auto_detect: true
   tab_replace:
-  
-# Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
-index_generator:
-  path: ''
-  per_page: 10
-  order_by: -date
-  
-# Category & Tag
+
+# Category & Tag #分类与标签
 default_category: uncategorized
 category_map:
 tag_map:
 
-# Date / Time format
+# Date / Time format #日期显示格式
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 
-# Pagination
+# Pagination #分页器
 ## Set per_page to 0 to disable pagination
-per_page: 10
+per_page: 3
 pagination_dir: page
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: 3-hexo
+# Extensions #拓展
+## Plugins: http://hexo.io/plugins/
+## Themes: http://hexo.io/themes/
+theme: next #主题更换
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
+# Deployment #部署参数
+## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:fairytail655/fairytail655.github.io.git
+  repo: git@github.com:fairytail655/fairytail655.github.io.git
   branch: master
 
-search:
-  path: search.xml
-  field: post
+index_generator:
+  per_page: 3 ##首頁默认10篇文章标题 如果值为0不分页
+
+archive_generator:
+  per_page: 10 ##归档页面默认10篇文章标题
+  yearly: true  ##生成年视图
+  monthly: true ##生成月视图
+
+tag_generator:
+  per_page: 10 ##标签分类页面默认10篇文章
+
+category_generator:
+   per_page: 10 ###分类页面默认10篇文章
+
+auto_excerpt:
+  enable: true
+  length: 150
