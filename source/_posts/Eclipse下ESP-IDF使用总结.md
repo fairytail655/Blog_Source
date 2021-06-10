@@ -7,6 +7,7 @@ categories: Intern
 
 - Ubuntu 18.04.5 LTS / Windows 7
 - Eclipse 2021-03
+- ESP32-S2-Kaluga-Kit
 
 <!--more-->
 
@@ -17,6 +18,9 @@ categories: Intern
 # IDF 环境搭建
 
 按照 [espressif/idf-eclipse-plugin](https://github.com/espressif/idf-eclipse-plugin#esp-idf-eclipse-plugin) 中 **Installing ESP-IDF** 和 **Installing ESP-IDF Tools** 两节进行.
+
+## Windows
+<span style="color:red">通过[文档](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32s2/get-started/index.html#get-started-set-up-env)中"第四步:设置环境变量", 可能无法将 ESP-IDF 工具的路径加入系统环境变量 **PATH**, 所以需要人为确认是否成功设置了环境变量. 如果设置失败, 可以手动将命令执行窗口中输出的路径添加到 **PATH** 中.</span>
 
 # 新建工程
 
