@@ -219,7 +219,7 @@ crw-rw---- 1 root dialout 188, 1 Jul 10 19:04 /dev/ttyUSB1
 - 更加方便和通用的方法
 - 点击工具栏 **Run** -> **Debug Configurations**,   新建 ***ESP-IDF GDB OpenOCD Debugging*** 文件.
 
-![](Eclipse/1.png)
+![Debug Configurations](Eclipse下ESP-IDF使用总结/1.png)
 
 ### Ubuntu
 
