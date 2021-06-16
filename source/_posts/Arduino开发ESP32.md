@@ -1,7 +1,10 @@
 ---
 title: Arduino 开发 ESP32
 date: 2021-06-10
-categories: Intern
+categories: 
+- Intern
+tags:
+- IDE
 ---
 # 环境
 

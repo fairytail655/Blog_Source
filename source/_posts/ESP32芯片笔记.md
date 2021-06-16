@@ -1,7 +1,10 @@
 ---
 title: ESP32 芯片笔记
 date: 2021-06-16
-categories: Intern
+categories: 
+- Intern
+tags:
+- ESP32
 ---
 # 整体框架
 
