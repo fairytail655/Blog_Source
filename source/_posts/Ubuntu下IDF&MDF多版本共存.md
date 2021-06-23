@@ -13,6 +13,8 @@ tags:
 - ESP-IDF v4.2.1 , v4.3, master
 - ESP-MDF master
 
+<!--more-->
+
 # 配置
 
 1. 从 Github 下载各个版本的 IDF/MDF 到 `~/esp/`目录下.
