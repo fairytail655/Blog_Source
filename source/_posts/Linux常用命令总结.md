@@ -2,7 +2,7 @@
 title: Linux常用命令总结
 date: 2021-06-04
 categories: 
-- Intern
+- Linux
 tags:
 - Linux
 ---

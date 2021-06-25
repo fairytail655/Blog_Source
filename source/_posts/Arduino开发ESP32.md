@@ -2,7 +2,7 @@
 title: Arduino 开发 ESP32
 date: 2021-06-10
 categories: 
-- Intern
+- Espressif
 tags:
 - Arduino
 ---
@@ -34,7 +34,7 @@ tags:
   
   所以可以创建软连接:
   ```powershell
-  ln -s /usr/bin/python 你的python路径
+  ln -s 你的python路径 /usr/bin/python
   ```
   
     或者直接安装:

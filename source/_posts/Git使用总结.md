@@ -2,7 +2,7 @@
 title: Git使用总结
 date: 2021-06-04
 categories: 
-- Intern
+- Git
 tags:
 - Git
 ---

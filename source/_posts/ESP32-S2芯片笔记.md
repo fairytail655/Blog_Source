@@ -2,7 +2,7 @@
 title: ESP32-S2 芯片笔记
 date: 2021-06-16
 categories: 
-- Intern
+- Espressif
 tags:
 - ESP32-S2
 ---

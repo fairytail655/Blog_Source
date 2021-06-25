@@ -2,7 +2,7 @@
 title: VSCode 下 esp-iot-solution 使用总结
 date: 2021-06-23
 categories: 
-- Intern
+- Espressif
 tags:
 - VSCode
 - ESP-iot-solution

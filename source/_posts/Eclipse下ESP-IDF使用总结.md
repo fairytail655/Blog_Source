@@ -2,7 +2,7 @@
 title: Eclipse 下 ESP-IDF 使用总结
 date: 2021-06-10
 categories: 
-- Intern
+- Espressif
 tags:
 - Eclipse
 - IDF
