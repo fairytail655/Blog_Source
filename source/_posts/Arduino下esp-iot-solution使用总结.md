@@ -161,7 +161,7 @@ tags:
    #ifndef IOT_BUTTON_CONFIG_H
    #define IOT_BUTTON_CONFIG_H
    
-   #define CONFIG_BUTTON_PERIOD_TIME_MS                5           # 均采用默认参数
+   #define CONFIG_BUTTON_PERIOD_TIME_MS                5           // 均采用默认参数
    #define CONFIG_BUTTON_DEBOUNCE_TICKS                2
    #define CONFIG_BUTTON_SHORT_PRESS_TIME_MS            180
    #define CONFIG_BUTTON_LONG_PRESS_TIME_MS            1500
